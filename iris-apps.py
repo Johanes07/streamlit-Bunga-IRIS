@@ -2,7 +2,8 @@ import pickle
 import streamlit as st
 import pandas as pd
 from PIL import Image
-
+from sklearn import datasets
+from sklearn.naive_bayes import GaussianNB
 
 st.write("""
 # Web Apps - Klasifikasi Bunga Iris
@@ -31,6 +32,7 @@ df = input_user()
 st.subheader('Parameter Inputan')
 st.write(df)
 
+IRIS = datasets.load_iris()
 
 
 X = IRIS.data
