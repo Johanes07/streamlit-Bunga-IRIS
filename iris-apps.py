@@ -1,8 +1,12 @@
+import pickle
 import streamlit as st
 import pandas as pd
 from PIL import Image
 from sklearn import datasets
 from sklearn.naive_bayes import GaussianNB
+
+#membaca model
+iris_model = pickle.load(open('iris.sav'))
 
 
 st.write("""
