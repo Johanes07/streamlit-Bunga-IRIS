@@ -5,7 +5,7 @@ from PIL import Image
 
 
 #membaca model
-iris_model = pickle.load(open('iris.sav'))
+
 
 
 st.write("""
