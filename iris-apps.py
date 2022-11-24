@@ -4,11 +4,6 @@ import pandas as pd
 from PIL import Image
 
 
-#membaca model
-iris_model = pickle.load(open('iris.sav'))
-
-
-
 st.write("""
 # Web Apps - Klasifikasi Bunga Iris
 """)
