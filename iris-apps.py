@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-from PIL import Image
+import Image
+from PIL 
 from sklearn import datasets
 from sklearn.naive_bayes import GaussianNB
 
