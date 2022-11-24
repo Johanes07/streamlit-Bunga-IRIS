@@ -35,7 +35,7 @@ df = input_user()
 st.subheader('Parameter Inputan')
 st.write(df)
 
-IRIS = datasets.load_iris()
+iris_model = pickle.load(open('iris.sav'))
 
 X = IRIS.data
 Y = IRIS.target
